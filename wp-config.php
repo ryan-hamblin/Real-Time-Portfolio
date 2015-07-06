@@ -21,13 +21,13 @@ if (file_exists(dirname(__FILE__) . '/local-config.php')) {
 
 // Global DB config
 if (!defined('DB_NAME')) {
-	define('DB_NAME', 'db');
+	define('DB_NAME', 'realtimeportfolio');
 }
 if (!defined('DB_USER')) {
-	define('DB_USER', 'ryanhca');
+	define('DB_USER', 'realtimeport');
 }
 if (!defined('DB_PASSWORD')) {
-	define('DB_PASSWORD', 'leeryan1!');
+	define('DB_PASSWORD', 'Leeryan1!');
 }
 if (!defined('DB_HOST')) {
 	define('DB_HOST', 'localhost');
@@ -52,14 +52,14 @@ if (!defined('DB_COLLATE')) {
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'jr=p9po_Pe0nFh%Vp7iN{&Ty#EEO P4:pk&*?WpR}hwh.291`u4@DwPwp!>]_$3U');
-define('SECURE_AUTH_KEY',  'Ds.nV_uwb}PJ?(3pwkmKz,UOz![8xO3o]Z=2{1:1xD*.M&o~+x%[t@+@-WTxr]7 ');
-define('LOGGED_IN_KEY',    ';+ZB8q|hw:`pAoP!f.|YYsz{hk}-m63PJ9w=taO[ly(=jj3Ono<Iinl0T|?}NSv>');
-define('NONCE_KEY',        '#=sRdUT*ez^n5N|,- Sjt|LFQruW2s0KUTwNS!6rH]x~Qfi<zPOtbpFP&,0AaJ>l');
-define('AUTH_SALT',        '?Ag|?:>5IDMyRR{-UPU{@IW0I[7?>$(p;{qcxd1XvS!Ft$axoRQO1&|wABI*b,yq');
-define('SECURE_AUTH_SALT', ',L8fES.sLm#P_T eemu?2lvPejzT7s9~&x=:Sq2(Hgu[F_7ZkMKXsHq*va&;l+7k');
-define('LOGGED_IN_SALT',   'IDPM!?eeTyLC^oT(R|*  mBE__``oF{b(Qg9SUfz(fc5jWE8;Vw2uD%VW=`0KNrm');
-define('NONCE_SALT',       'R2VWJfXe)s8-R{)_k.|lMX)hAEHS6F-EI;,U-`VH*ytP!4pH/Lc%l|l[q87,d8a|');
+define('AUTH_KEY',         ']Bo%Dh:yjT+m{)m!Q=Dg0XTc|%s+W3AT,fk[:x|s:+?xiC|?*Zg7qt,[2Y-b><v#');
+define('SECURE_AUTH_KEY',  'W`W!D,7[SRW{kLh@}]kLT`LTFNlH8p1~_CB>n!bBfVM`m$^V:6+CtK&vi62|F1J;');
+define('LOGGED_IN_KEY',    'zMvD#9+(Kst|YD88=H?1M.GsdJ>Q2bPWc`B|_(M50Z,kCk+n ]d(leKm,|t;v_/!');
+define('NONCE_KEY',        'leqg93JQjxSuW[d* !:4%hSG68hP{ly%vn!S}^=Cf4a?>DAL;YrGF!-$df+ {_r(');
+define('AUTH_SALT',        '_2<3,6t#.!Yxg3&G_G#IELr{*G[J|IX__H4mTKI>Eo~i OQ=OT0FOG|`-~$Twc%}');
+define('SECURE_AUTH_SALT', '`~hITebNO)NaG|2j1pj+EA>_||hd+3AskkpDlvtq]0}g{y(b*TS#x<:O?%;-y|V:');
+define('LOGGED_IN_SALT',   '~`01gA`*-dlr!A;U9tSwa-VU-GOGDZ+>x_gc4~BLiL.L93J:=3]||$y.d+R6i~by');
+define('NONCE_SALT',       'NFUWcdwoYfA|nOyQ^#??7JeAMC!%Nv:eE[!Fu-W7I2$UHbKbKPJ@JvUEg+;#Xc( ');
 
 /**#@-*/
 
@@ -81,24 +81,6 @@ $table_prefix  = 'wp_';
  */
 define('WPLANG', '');
 
-
-/**
- * Set custom paths
- *
- * These are required because wordpress is installed in a subdirectory.
- */
-if (!defined('WP_SITEURL')) {
-	define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
-}
-if (!defined('WP_HOME')) {
-	define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME'] . '');
-}
-if (!defined('WP_CONTENT_DIR')) {
-	define('WP_CONTENT_DIR', dirname(__FILE__) . '/content');
-}
-if (!defined('WP_CONTENT_URL')) {
-	define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/content');
-}
 
 
 /**

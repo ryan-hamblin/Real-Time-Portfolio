@@ -1,0 +1,15 @@
+{
+	"wpVer": "3.8",
+	"url": "http://realtimeportfolio.dev",
+	"tablePrefix": "wp_",
+	"dbHost": "localhost",
+	"dbName": "realtimeportfolio",
+	"dbUser": "realtimeport",
+	"dbPass": "Leeryan1!",
+	"git": false,
+	"customDirs": false,
+	"installTheme": false,
+	"wpDir": ".",
+	"contentDir": "wp-content",
+	"saltKeys": "define('AUTH_KEY',         ']Bo%Dh:yjT+m{)m!Q=Dg0XTc|%s+W3AT,fk[:x|s:+?xiC|?*Zg7qt,[2Y-b><v#');\ndefine('SECURE_AUTH_KEY',  'W`W!D,7[SRW{kLh@}]kLT`LTFNlH8p1~_CB>n!bBfVM`m$^V:6+CtK&vi62|F1J;');\ndefine('LOGGED_IN_KEY',    'zMvD#9+(Kst|YD88=H?1M.GsdJ>Q2bPWc`B|_(M50Z,kCk+n ]d(leKm,|t;v_/!');\ndefine('NONCE_KEY',        'leqg93JQjxSuW[d* !:4%hSG68hP{ly%vn!S}^=Cf4a?>DAL;YrGF!-$df+ {_r(');\ndefine('AUTH_SALT',        '_2<3,6t#.!Yxg3&G_G#IELr{*G[J|IX__H4mTKI>Eo~i OQ=OT0FOG|`-~$Twc%}');\ndefine('SECURE_AUTH_SALT', '`~hITebNO)NaG|2j1pj+EA>_||hd+3AskkpDlvtq]0}g{y(b*TS#x<:O?%;-y|V:');\ndefine('LOGGED_IN_SALT',   '~`01gA`*-dlr!A;U9tSwa-VU-GOGDZ+>x_gc4~BLiL.L93J:=3]||$y.d+R6i~by');\ndefine('NONCE_SALT',       'NFUWcdwoYfA|nOyQ^#??7JeAMC!%Nv:eE[!Fu-W7I2$UHbKbKPJ@JvUEg+;#Xc( ');\n"
+}
